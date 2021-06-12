@@ -1,0 +1,75 @@
+.top{
+    position: absolute;
+    height: 16%;
+}
+.row
+{
+    flex-direction: column;
+}
+
+.left{
+    flex-direction: column;
+    align-self: center;
+}
+
+.logo{
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 7.5rem;
+    width: 7.5rem;
+    margin: 26px 0px;
+}
+.center{
+    display: none;
+}
+
+.right{
+    display: none;
+}
+
+textarea{
+    width: 100%;
+}
+
+.input{
+    width: 310px;
+    height: 20px;
+    border-radius: 25px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    text-align: left;
+    outline: none;
+    font-family: cursive;
+    font-style: italic;
+}
+.Name{
+    font-size: 40px;
+    padding: 0rem 0rem;
+}
+.tag{
+    padding: 1rem 0px;
+    font-family: 'Parisienne', cursive;
+    font-size: 22px;
+    font-style: italic;
+}
+.head{
+    font-size: 30px;
+    padding: 25pt 0pt;
+}
+.paragraphs{
+    font-size: 20px;
+}
+
+.mySlides2{
+    width: 35%;
+margin: 2vh 33%;
+box-shadow: 12px 11px 17px 3px;
+border-radius: 10px;
+ }
+
+ .bottomlogo{
+     display: block;
+    margin:10px 10px;
+}

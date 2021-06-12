@@ -1,0 +1,32 @@
+.center li a{
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    margin: 0px 0rem;
+    font-size: 13px;
+    padding: 3px 15px;
+}
+
+.head {
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    /* border: 2px solid goldenrod; */
+    /* margin: 0px -4px; */
+    padding: 30pt 0pt;
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Ubuntu Condensed';
+    font-weight: bold;
+}
+
+.paragraphs {
+    margin: auto;
+    width: 95%;
+    text-align: left;
+    font-size: 24px;
+    padding: 30pt 0pt;
+    color: whitesmoke;
+    word-wrap: break-word;
+    font-style: italic;
+}

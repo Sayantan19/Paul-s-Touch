@@ -1,0 +1,46 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    transition-property: all;
+}
+
+.top{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: black;    
+}
+
+.left{
+    display: flex;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    display: none;
+}
+
+.right{
+    display: none;
+}
+
+.logo{
+    width:  5.5rem;
+    height: 5.5rem;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin: 0px 2px;
+}
+
+.social:hover{
+    border-radius: 2px;
+}
+

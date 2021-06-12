@@ -1,0 +1,178 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    transition: all;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    height: 120px;
+}
+.top{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-image: url(/img/dark-studio-background_1258-14.jpg);
+    background-position: bottom;
+    z-index: 1;    
+}
+
+.left{
+    display: flex;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    /* display: flex; */
+    position: relative;
+    /* border: 2px solid green; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.center li{
+    display: inline-flex;
+    margin: 0px 10px;
+    font-size: 14px;
+}
+
+.center li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.center li a:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding: 0px 5px;
+}
+.right{
+    /* display: flex; */
+    position: relative;
+    /* border: 2px solid yellow; */
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.logo{
+    width: 6rem;
+    height: 6rem;
+    margin: 10px;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin: 0px 5px;
+}
+
+.social:hover{
+    border-radius: 2px;
+}
+
+body{
+    background-image: url(/img/81213946-texture-whiteboard-background-wood-texture-background-an-empty-template-for-the-sample-template-is-b.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 30px;
+    font-family: cursive;
+    /* border: 2px solid red; */
+    background-color: #b9b9b9;
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: center;
+    flex-basis: 10px;
+}
+  
+  /* Create two equal columns that sits next to each other */
+.column {
+    display: contents;
+}
+  
+.imgl {
+    margin: 10px;
+    /* vertical-align: bottom; */
+    height: 21rem;
+    width: 29rem;
+    box-shadow: 10px 11px 6px 3px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.imgl:hover{
+    width: 50rem;
+    height: 32rem;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    box-shadow: 15px 16px 11px 8px;
+    transition-property: all;
+}
+
+.imgp{
+    margin: 10px;
+    /* vertical-align: top; */
+    height: 22.69rem;
+    width: 15rem;
+    box-shadow: 10px 11px 6px 3px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.imgp:hover{
+    height: 42rem;
+    width: 25rem;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
+    box-shadow: 15px 16px 11px 8px;
+}
+
+#bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    align-content: center;
+    margin-top: 15px;
+}
+
+.bottomlogo{
+    margin:10px 0px;
+}

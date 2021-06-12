@@ -1,0 +1,113 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    transition: all;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    height: 120px;
+}
+.top{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-image: url(/img/dark-studio-background_1258-14.jpg);
+    z-index: 1;    
+    background-position: bottom;
+}
+
+.left{
+    display: flex;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 6rem;
+    height: 6rem;
+    margin: 10px;
+}
+
+body{
+    background-image: url(/img/dark-studio-background_1258-14.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Gallery{
+    display: inline-flex;
+    /* border: 5px ridge whitesmoke; */
+    margin: 10px 0px;
+    padding: 15px 30px; 
+    transition: all 0.5s ease-in-out;
+}
+.head{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 30px;
+    font-family: cursive;
+    /* border: 2px solid red; */
+    background-color: #b9b9b9;
+    color: black;
+}
+
+
+.Gallery:hover{
+    background-color: #38353585;
+    background-blend-mode: exclusion;
+    box-shadow: 10px 10px 10px 10px;
+    /* border: 3px solid whitesmoke; */
+    border-radius: 2px;
+    transition: all 500ms ease-in-out;
+}
+
+.videos{
+    border:3px solid white;
+    height: 320px;
+}
+.paragraph{
+    display: inline-flex;
+    color: white;
+    font-family: cursive;
+    font-size: 24px;
+    padding: 5px 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+#bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    align-content: center;
+    margin-top: 15px;
+}
+
+.bottomlogo{
+    margin:10px 0px;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+    background-color: whitesmoke;
+    margin: 0px 5px;
+}

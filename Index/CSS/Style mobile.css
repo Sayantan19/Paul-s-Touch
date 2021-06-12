@@ -1,0 +1,75 @@
+.top{
+    position: absolute;
+}
+.row
+{
+    flex-direction: column;
+}
+
+.left{
+    flex-direction: column;
+    align-self: center;
+}
+
+.logo{
+    display: flex;
+    align-self: center;
+    margin: 15px 0px;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.center{
+    display: none;
+}
+
+.right{
+    display: none;
+}
+
+textarea{
+    width: 100%;
+}
+
+.input{
+    width: 200px; 
+    height: 5px;  
+    border-radius: 25px;
+    margin: 10px 3px;
+    padding: 12px 20px;
+    text-align: left;
+    outline: none;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 10px;
+}
+.Name{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.tag{
+    font-size: 11px;
+    padding: 0px 0px;
+}
+.bigborder{
+    height: 20%;
+}
+.head{
+    font-size: 20pt;
+    padding: 25pt 0pt;
+}
+.paragraphs{
+    font-size: 10pt;
+}
+
+.mySlides2{
+    width: 30%;
+margin: 2vh 35%;
+box-shadow: 12px 11px 17px 3px;
+border-radius: 10px;
+ }
+
+ .bottomlogo{
+    display: block;
+    margin:10px 10px;
+}
