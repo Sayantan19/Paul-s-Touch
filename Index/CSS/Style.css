@@ -177,7 +177,7 @@
     font-style: italic;
     }
     #gallery{
-        background: url(.../img/Edit-0849-2.jpg); 
+        background: url(./img/Edit-0849-2.jpg); 
         background-size:cover;
         background-position: top;        
     }
