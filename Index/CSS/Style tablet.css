@@ -17,8 +17,8 @@
     display: flex;
     align-self: center;
     justify-content: center;
-    height: 7.5rem;
-    width: 7.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
     margin: 26px 0px;
 }
 .center{
@@ -45,21 +45,21 @@ textarea{
     font-style: italic;
 }
 .Name{
-    font-size: 40px;
+    font-size: 30px;
     padding: 0rem 0rem;
 }
 .tag{
     padding: 1rem 0px;
     font-family: 'Parisienne', cursive;
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
 }
 .head{
-    font-size: 30px;
+    font-size: 24px;
     padding: 25pt 0pt;
 }
 .paragraphs{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .mySlides2{
@@ -72,4 +72,28 @@ border-radius: 10px;
  .bottomlogo{
      display: block;
     margin:10px 10px;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    border-radius: 25px;
+    margin: 10px 3px;
+    padding: 10px 20px;
+    text-align: left;
+    outline: none;
+    font-family: cursive;
+    font-style: italic;
+}
+
+textarea {
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    outline: none;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 12px;
+    width: 300px !important;
+    height: 170px !important;
 }
