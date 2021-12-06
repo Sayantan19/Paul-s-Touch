@@ -9,7 +9,7 @@
 .container {
     display: flex;
     position: relative;
-    background-image: url(//img/ABC.jpg);
+    background-image: url(/img/ABC.jpg);
     background-size:cover;
     background-position: bottom;
     background-repeat: repeat-x;
@@ -150,7 +150,7 @@ align-content: flex-end;
 #About{
     width: 100%;
     align-items: center;
-    background-image: url(//img/Edit-0849-2.jpg);
+    background-image: url(/img/Edit-0849-2.jpg);
     background-size: cover;
     background-position: bottom;
 }
